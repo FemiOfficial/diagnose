@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DiagNose</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_diagnosis">Diagnosis</string>
+    <string name="title_activity_power__failure">Power Failure</string>
+    <string name="title_activity_sound__failure">Sound Failure</string>
+    <string name="title_activity_screen__failure">Screen Failure</string>
+    <string name="title_activity_cd__drive__failure">CD Drive Failure</string>
+    <string name="title_activity_printer__failure">Printer Failure</string>
+    <string name="title_activity_change_pin">ChangePinActivity</string>
+</resources>

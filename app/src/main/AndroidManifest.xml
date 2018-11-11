@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alayesanmifemi.diagnose">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Dashboard" />
+        <activity
+            android:name=".Diagnosis"
+            android:label="@string/title_activity_diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Power_Failure"
+            android:label="@string/title_activity_power__failure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sound_Failure"
+            android:label="@string/title_activity_sound__failure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Screen_Failure"
+            android:label="@string/title_activity_screen__failure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CD_Drive_Failure"
+            android:label="@string/title_activity_cd__drive__failure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Printer_Failure"
+            android:label="@string/title_activity_printer__failure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePinActivity"
+            android:label="@string/title_activity_change_pin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
